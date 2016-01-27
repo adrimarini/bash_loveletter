@@ -1,0 +1,148 @@
+body{
+
+}
+/*this is the background of the webpage */ 
+#wrapper{
+	width:960px;
+	margin-left:auto;	/* both left and right centers it */
+	margin-right: auto;
+	background-color: #d9d9d9;
+	box-shadow: 0px 0px 100px #000000; /*needs width and height or just width and clearfix*/ 
+
+
+}
+
+.clearfix:after {					/*expands the wrapper to auto adjust length*/ 
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+.nav-spacing1 {
+	padding-right: 60px;
+	padding-left: 40px;
+}
+
+.nav-spacing2 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.nav-spacing3 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.nav-spacing4 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.nav-spacing5 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.nav-spacing6 {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+
+
+
+.header-text {
+	padding-top: 100px;
+}
+
+header{
+
+	width: 960px;
+	height: 320px;
+	float: left;
+	background-image:url(""); 
+	text-align: center;
+	
+}
+
+nav{
+
+	width: 960px;
+	height: 50px;
+	float: left;
+	background-color: #2b2b2b; 
+}
+
+article{
+	width: 940px;
+	height:1040px;
+	float: left;
+	padding:10px; 	/*had to take out 20 from width to =940 instead of 960*/ 
+	text-align: center;
+	
+}
+
+
+.box1{
+	width: 410px;
+	float: left;
+
+	background-color:#ffffff;
+	height: 400px; 
+	padding:20px;
+	margin-top:20px ;
+	margin-right:10px;
+	margin-bottom:20px ;
+	margin-left: 10px;
+
+
+}
+
+
+.box2{
+	width: 410px;
+	float: left;
+	
+	background-color:#ffffff;
+	height: 400px; 
+	padding:20px;
+	margin-top:20px ;
+	margin-bottom:20px ;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+footer{
+
+	width: 960px;
+	height: 500px;
+	float: left;
+	background-color: #2b2b2b;
+	color:#ffffff;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
