@@ -28,50 +28,21 @@ body{
 
 
 
-.nav-spacing1 {
-	padding-right: 60px;
-	padding-left: 40px;
-}
-
-.nav-spacing2 {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
-.nav-spacing3 {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
-.nav-spacing4 {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
-.nav-spacing5 {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
-.nav-spacing6 {
-	padding-right: 60px;
-	padding-left: 60px;
-}
-
 
 
 
 .header-text {
-	padding-top: 100px;
+	padding-bottom: 90px;
 }
 
 header{
 
 	width: 960px;
-	height: 320px;
+	height: 100px;
 	float: left;
 	background-image:url(""); 
-	text-align: center;
+	text-align: left;
+	padding: 20px;
 	
 }
 
@@ -88,7 +59,7 @@ article{
 	height:1040px;
 	float: left;
 	padding:10px; 	/*had to take out 20 from width to =940 instead of 960*/ 
-	text-align: center;
+	
 	
 }
 
@@ -98,7 +69,7 @@ article{
 	float: left;
 
 	background-color:#ffffff;
-	height: 400px; 
+	height: 900px; 
 	padding:20px;
 	margin-top:20px ;
 	margin-right:10px;
@@ -114,7 +85,7 @@ article{
 	float: left;
 	
 	background-color:#ffffff;
-	height: 400px; 
+	height: 900px; 
 	padding:20px;
 	margin-top:20px ;
 	margin-bottom:20px ;
@@ -126,7 +97,7 @@ article{
 footer{
 
 	width: 960px;
-	height: 500px;
+	height: 300px;
 	float: left;
 	background-color: #2b2b2b;
 	color:#ffffff;
