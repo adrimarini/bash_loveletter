@@ -1,13 +1,125 @@
-body{
+html { 
+  background: url("img/i-love-you-puddle.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.heart {
+	font-size: 152px;
+	text-align: center;
+	color: rgba(165, 25, 25, 1);
+	padding: 0;
+	margin: 0;
+}
+
+.pulse1 {
+	-webkit-animation: pulse1 1s linear infinite;
+	-moz-animation: pulse1 1s linear infinite;
+	-ms-animation: pulse1 1s linear infinite;
+	animation: pulse1 1s linear infinite;
+}
+
+@keyframes "pulse1" {
+ 0% {
+    color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+    color: rgba(255,0,0,0.0);
+ }
+ 100% {
+    color: rgba(255,0,0,1.0);
+ }
 
 }
+
+@-moz-keyframes pulse1 {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-webkit-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+@-ms-keyframes "pulse1" {
+ 0% {
+   color: rgba(165, 25, 25, 1);
+ }
+ 90% {
+   color: rgba(255,0,0,0.0);
+ }
+ 100% {
+   color: rgba(255,0,0,1.0);
+ }
+
+}
+
+
+
+
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+
+
+}
+
+
 /*this is the background of the webpage */ 
 #wrapper{
 	width:960px;
 	margin-left:auto;	/* both left and right centers it */
 	margin-right: auto;
-	background-color: #d9d9d9;
-	box-shadow: 0px 0px 100px #000000; /*needs width and height or just width and clearfix*/ 
+	 /*needs width and height or just width and clearfix*/ 
 
 
 }
@@ -37,31 +149,56 @@ body{
 
 header{
 
-	width: 960px;
+	width: 920px;
 	height: 100px;
 	float: left;
-	background-image:url(""); 
+	background-color: #1C1910;
+	color:#ffffff; 
 	text-align: left;
 	padding: 20px;
+	opacity: 0.8;
 	
 }
+
+
+
+.heart-icon{
+	width: 30px;
+	height: 30px;
+	float:right;
+	background: url("img/heart-icon.png");
+}
+
+.heart-icon:hover {
+	     -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
+
 
 nav{
 
-	width: 960px;
+	width: 940px;
 	height: 50px;
 	float: left;
-	background-color: #2b2b2b; 
+	background-color: #7F445C; 
 }
 
-article{
-	width: 940px;
-	height:1040px;
-	float: left;
-	padding:10px; 	/*had to take out 20 from width to =940 instead of 960*/ 
-	
-	
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
 }
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 
 .box1{
@@ -69,12 +206,15 @@ article{
 	float: left;
 
 	background-color:#ffffff;
-	height: 900px; 
-	padding:20px;
+	height: 1030px; 
+	padding-right:10px;
+	padding-left:10px;
 	margin-top:20px ;
 	margin-right:10px;
 	margin-bottom:20px ;
 	margin-left: 10px;
+	
+	color: 0 0 0 0;
 
 
 }
@@ -82,25 +222,28 @@ article{
 
 .box2{
 	width: 410px;
-	float: left;
+	float: right;
 	
 	background-color:#ffffff;
-	height: 900px; 
-	padding:20px;
+	height: 1030px; 
+	padding-left:10px;
 	margin-top:20px ;
 	margin-bottom:20px ;
-	margin-right: 10px;
+	margin-right: 5px;
 	margin-left: 10px;
+	
+	color: 0 0 0;
 
 }
 
 footer{
 
 	width: 960px;
-	height: 300px;
+	height: 450px;
 	float: left;
-	background-color: #2b2b2b;
-	color:#ffffff;
+	background-color: #1C1910;
+	color: #ffffff;
+	opacity: 0.8;
 	text-align: center;
 
 }
